@@ -1,0 +1,52 @@
+{
+ "operation": "materialize+encode+decode_check+digest+register",
+ "flush_every": 64,
+ "warmup": 50,
+ "groups": 3,
+ "per_group": 250,
+ "samples": 3750,
+ "classes": {
+  "S": {
+   "sizes": [
+    32,
+    64
+   ],
+   "n": 1500,
+   "q_hat_us": 11.6,
+   "median_ns": 11600,
+   "p95_us": 18.0,
+   "mean_us": 49.778,
+   "min_us": 10.9,
+   "max_us": 5915.0
+  },
+  "M": {
+   "sizes": [
+    128,
+    256
+   ],
+   "n": 1500,
+   "q_hat_us": 11.8,
+   "median_ns": 11800,
+   "p95_us": 24.0,
+   "mean_us": 48.154,
+   "min_us": 11.0,
+   "max_us": 2631.7
+  },
+  "L": {
+   "sizes": [
+    512
+   ],
+   "n": 750,
+   "q_hat_us": 12.5,
+   "median_ns": 12500,
+   "p95_us": 18.5,
+   "mean_us": 49.07,
+   "min_us": 11.6,
+   "max_us": 2654.5
+  }
+ },
+ "q_hat_global_us": 11.8,
+ "frozen_before_test_runs": true,
+ "samples_sha256": "2e0796fa788aa59b50cb667daf3f78a714ec1aeec2c08b2963fdd070ce4faeb9",
+ "note": "q_hat is the per-class median of the measured service time; it is used as a declared cost in scoring and never re-estimated from test runs"
+}

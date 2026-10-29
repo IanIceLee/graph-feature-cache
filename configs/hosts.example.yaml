@@ -1,0 +1,5 @@
+# Example only. Cross-machine launchers are not part of the public code release.
+host: 127.0.0.1
+user: ""
+remote_dir: "~/graph-feature-cache"
+owner_host: 127.0.0.1

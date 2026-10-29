@@ -1,0 +1,5 @@
+numpy>=1.23,<3
+pytest>=7
+ruff>=0.5
+# Optional: the graph predictor and T1 experiment drivers need PyTorch.
+# torch>=2.0

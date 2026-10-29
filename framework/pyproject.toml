@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graphcache-framework"
+version = "0.1.0"
+description = "Process, codec, source, verifier and transport helpers for receiver-side feature caching"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.23,<3"]
+readme = "README.md"
+license = {text = "Apache-2.0"}
+
+[project.optional-dependencies]
+torch = ["torch>=2.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["graphcache_framework*"]

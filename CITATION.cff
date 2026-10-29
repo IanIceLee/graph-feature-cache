@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying paper."
+title: "graph-feature-cache"
+type: software
+authors:
+  - family-names: "Li"
+    given-names: "Yanbing"
+# TODO: replace with the final paper author list and order before public release.
+license: Apache-2.0

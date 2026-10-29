@@ -1,0 +1,3 @@
+# Copy to configs/local/paths.yaml if your layout differs.
+metr_dir: data/metr_la
+model_ckpt: models/metr_la_d2_s42_best.pt

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graphcache-core"
+version = "0.1.0"
+description = "Cache policies, estimators, receiver/owner processes and publication operation"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.23,<3"]
+readme = "README.md"
+license = {text = "Apache-2.0"}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["graphcache_core*"]
