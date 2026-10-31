@@ -1,9 +1,13 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the accompanying paper."
+message: "If you use this software, please cite it and the accompanying manuscript."
 title: "graph-feature-cache"
 type: software
 authors:
   - family-names: "Li"
     given-names: "Yanbing"
-# TODO: replace with the final paper author list and order before public release.
+  - family-names: "Li"
+    given-names: "Zhong"
+version: "1.0.0"
+date-released: "2026-11-01"
+repository-code: "https://github.com/IanIceLee/graph-feature-cache"
 license: Apache-2.0

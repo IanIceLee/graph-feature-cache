@@ -10,8 +10,9 @@ The repository is split into two packages:
 - `core/` — cache policies, estimators, budgeted selection, the publication operation,
   and the owner/consumer cache execution.
 
-The repository contains **code only**. Raw datasets and model checkpoints are not
-redistributed; see `data/README.md` and `models/README.md`.
+The repository contains the source code, experiment configurations, documentation, and a
+frozen calibration summary. Raw datasets and model checkpoints are not redistributed; see
+`data/README.md`, `models/README.md`, and `docs/data.md`.
 
 ## Quick start
 
@@ -60,5 +61,10 @@ and `NOTICE`. Data and model weights are not covered by this license.
 
 ## Citation
 
-See `CITATION.cff`. The final author list and paper DOI should be filled from the
-manuscript before public release.
+If you use this software, please cite the software using `CITATION.cff` and cite the
+accompanying manuscript when its final bibliographic information is available:
+
+Yanbing Li and Zhong Li. “Communication and Publication Cost-Aware Receiver Feature
+Caching for Distributed Graph Computing.” Submitted to *Cluster Computing*.
+
+The manuscript DOI and final publication details can be added after publication.
